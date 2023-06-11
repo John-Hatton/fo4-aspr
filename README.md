@@ -22,7 +22,7 @@ Replace `/path/to` with the actual paths on your system. Repeat this for each sc
 
     TODO: Implement a Build System, which automates this.
 
-3. **Pack the mod:** Once all scripts are compiled, you need to pack them into a mod file that Fallout 4 can use. This includes the compiled scripts and any other resources the mod uses (like textures, meshes, etc.). This is typically done using the Creation Kit's Archive tool. The mod file should be named `Advanced_Settlement_Power_Redux.esp`.
+3. **Pack the mod:** Once all scripts are compiled, you need to pack them into a mod file that Fallout 4 can use. This includes the compiled scripts, the textures `help.dds`, and the meshes located in the `meshes` directory (like `extended_wall_connector_1.nif`, `extended_wall_connector_2.nif`, etc.). This is typically done using the Creation Kit's Archive tool. The mod file should be named `Advanced_Settlement_Power_Redux.esp`.
 
 ## Installing the Mod
 
@@ -54,7 +54,29 @@ At this point, the mod should be installed and ready to use in Fallout 4. Check 
 * Adders, Subtractors, and Comparators
 * Multibit splitters and combiners
 
-**note:** some items have been written but have not been added to the build menu yet
+**note:** some items have been written but have not been added to the
+
+ build menu yet
+
+## Assets Included
+
+This mod provides several custom meshes and textures that are used for the custom components added by the mod. 
+
+### Textures
+
+The following textures are included:
+
+- `help.dds`: This texture is used to provide a visual guide in the game.
+
+### Meshes
+
+The following meshes are included:
+
+- `extended_wall_connector_1.nif`
+- `extended_wall_connector_2.nif`
+- `extended_wall_connector_3.nif`
+- `extended_wall_connector_4.nif`: These meshes are used to create extended wall connectors in the game.
+- `temporary.nif`: This is a placeholder mesh. It's used during the development process and can be replaced with a custom mesh in the future.
 
 ## Detailed Mod Information
 
