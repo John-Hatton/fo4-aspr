@@ -4,7 +4,7 @@
 
 Advanced Settlement Power is a mod that expands the power options for settlements in Fallout 4. This mod requires a build process before installation. This document describes the building, installation, and usage of the Advanced Settlement Power mod.
 
-## Building the Mod
+## Building the Mod (Optional)
 
 Before you install the mod in Fallout 4, you need to build it. The mod contains Papyrus scripts that need to be compiled into a form that Fallout 4 can use. To do this, you'll need to use the Papyrus Compiler that comes with the Fallout 4 Creation Kit.
 
