@@ -20,6 +20,8 @@ Follow these steps:
 
 Replace `/path/to` with the actual paths on your system. Repeat this for each script in the `scripts` directory.
 
+    TODO: Implement a Build System, which automates this.
+
 3. **Pack the mod:** Once all scripts are compiled, you need to pack them into a mod file that Fallout 4 can use. This includes the compiled scripts and any other resources the mod uses (like textures, meshes, etc.). This is typically done using the Creation Kit's Archive tool. The mod file should be named `Advanced_Settlement_Power_Redux.esp`.
 
 ## Installing the Mod
